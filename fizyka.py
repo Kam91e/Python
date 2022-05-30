@@ -11,7 +11,7 @@ if opcja in ("a", "A"):
     dc = float(input())
     print("Podaj objętość wypartej cieczy(m3)")
     Vw = float(input())
-    print("Fw = dc * Vw * g = ",dc * Vw * 10, "N")
+    print("Fw = dc * Vw * g = ", dc * Vw * 10, "N")
 elif opcja in ("b", "B"):
     print("Podaj gęstość ciała(m3/kg)")
     dci = float(input())
