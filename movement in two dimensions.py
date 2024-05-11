@@ -64,15 +64,12 @@ ball.stamp()
 
 t = 0
 y = y0
-while True:
+while y > 0:
     t = t+0.1
     vy = v0y-g*t
     v = math.sqrt(vy**2+v0x**2)
     x = x0 + v0x*t
     y = y0 + v0y*t - (g*t**2)/2
-
-    if y <= 0:
-        break
 
     ball.goto(x,y)
     ball.stamp()
